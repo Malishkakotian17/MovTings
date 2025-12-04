@@ -1,2 +1,11 @@
-# MovTings
-MOVTINGS is a  movie rating dashboard where users can filter movies by genre and year, view posters, and see ratings with a bar chart visualization.
+# MovTings 🎬
+A Movie Rating Dashboard built using HTML, CSS and JavaScript.
+
+## Features
+- Filter movies by genre and year
+- Movie poster gallery
+- Average rating calculation
+- Top movie highlight
+- Dashboard using Chart.js
+
+

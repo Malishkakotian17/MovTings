@@ -8,4 +8,5 @@ A Movie Rating Dashboard built using HTML, CSS and JavaScript.
 - Top movie highlight
 - Dashboard using Chart.js
 
-
+## 🔗 Live Website
+https://malishkakotian17.github.io/MovTings/

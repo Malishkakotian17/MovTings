@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovTings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="logo">
+        <span class="logo-accent">▶</span> MovTings
+    </div>
+
+    <p class="subtitle">(A Movie Rating Dashboard)</p>
+
+    <div class="filters">
+        <select id="genreFilter">
+            <option value="All">All Genres</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Romance">Romance</option>
+            <option value="Action">Action</option>
+            <option value="Thriller">Thriller</option>
+        </select>
+
+        <select id="yearFilter">
+            <option value="All">All Years</option>
+        </select>
+    </div>
+
+    <div class="stats">
+        <div class="stat-box">Avg Rating: <span id="avgRating">-</span></div>
+        <div class="stat-box">Total Movies: <span id="totalMovies">-</span></div>
+        <div class="stat-box">Top Movie: <span id="bestMovie">-</span></div>
+    </div>
+
+    <canvas id="ratingChart"></canvas>
+
+    <h2 class="section-title">Movies</h2>
+    <div id="movieList" class="movie-grid"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
